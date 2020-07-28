@@ -5,6 +5,7 @@ using namespace std;
 int menupilihan(){
     int pilihan;
     do{
+        cout << "\033[2J\033[1;1H";
         cout << "Program Stack" << endl;
         cout << "_____________" << endl;
         cout << "1. tampilkan stack." << endl;
